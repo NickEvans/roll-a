@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Roll a...</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="content">
+      <h1>
+        Roll a...
+          <input
+            type="text"
+            id="rollinput"
+            placeholder="3d6+2"
+            size="10"
+            autocomplete="off"
+            autocorrect="off"
+            autocapitalize="off"
+            spellcheck="false"
+            autofocus
+          />
+      </h1>
+
+      <small id="errormsg"></small>
+
+      <h2 id="results"></h2>
+      
+      <button class="hidden" onclick="updateRoll()">
+        Re-roll
+      </button>
+    </div>
+
+    <div
+      class="glitchButton position-y-top"
+      style="position:fixed;right:20px;bottom:20px;"
+    ></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
