@@ -1,0 +1,76 @@
+body {
+  font-family: "Helvetica Neue", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /*
+  font-family: monospace; 
+  */
+  margin: 2em;
+  text-align: center;
+}
+
+h1 {
+  
+  color: #373fff;
+  /*
+  color: #6960ec;
+  
+  font-style: italic;
+  */
+}
+
+input {
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  background-color: inherit;
+  color: inherit;
+  font-size: 100%;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #6960ec;
+  padding-left: 0;
+}
+
+h2 {
+  background-color: yellow;
+  color: #373fff;
+  display: inline-block;
+}
+
+form {
+  display: inline;
+}
+
+small {
+  color: red;
+  font-size: 0.75rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+  background: #373fff;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  margin: 15px auto;
+}
+
+button:hover {
+  background: #5e64ff;
+}
+
+.content {
+  margin: 75px 0 75px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+::placeholder {
+  color: #f0e9ef;
+}
